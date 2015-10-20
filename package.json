@@ -1,0 +1,18 @@
+{
+  "name": "Nitrogen",
+  "main": "./lib/nitrogen",
+  "version": "0.0.0",
+  "description": "Nitrogen: Nitrous meets Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "nitrogen:toggle"
+  },
+  "repository": "https://github.com/nitrous/nitrogen",
+  "license": "LicenseRef-LICENSE.md",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

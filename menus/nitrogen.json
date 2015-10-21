@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nitrogen",
+        "command": "nitrogen:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Nitrogen",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nitrogen:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

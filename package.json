@@ -5,14 +5,13 @@
   "description": "Nitrogen: Nitrous meets Atom",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "nitrogen:toggle"
-  },
   "repository": "https://github.com/nitrous/nitrogen",
   "license": "LicenseRef-LICENSE.md",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }

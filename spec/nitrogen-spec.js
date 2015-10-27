@@ -1,4 +1,7 @@
 /** @babel */
+/*eslint-env jasmine */
+
+/*
 
 import Nitrogen from '../lib/nitrogen';
 
@@ -10,3 +13,5 @@ describe('Nitrogen', () => {
     activationPromise = atom.packages.activatePackage('nitrogen');
   });
 });
+
+*/

@@ -1,5 +1,5 @@
 {
-  "name": "Nitrogen",
+  "name": "nitrogen",
   "main": "./lib/nitrogen",
   "version": "0.0.0",
   "description": "Nitrogen: Nitrous meets Atom",

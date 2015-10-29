@@ -3,14 +3,15 @@
   "main": "./lib/nitrogen",
   "version": "0.0.0",
   "description": "Nitrogen: Nitrous meets Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/nitrous/nitrogen",
   "license": "LicenseRef-LICENSE.md",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "classnames": "^2.2.0",
+    "jquery": "^2.1.4",
     "react": "^0.14.0",
     "react-dom": "^0.14.0"
   },

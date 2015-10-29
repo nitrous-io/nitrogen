@@ -15,8 +15,8 @@
           "label": "Nitrogen",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "nitrogen:toggle"
+              "label": "Log in...",
+              "command": "nitrogen:show-login-dialog"
             }
           ]
         }

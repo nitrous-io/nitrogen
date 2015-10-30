@@ -10,12 +10,14 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.0.2",
     "classnames": "^2.2.0",
-    "jquery": "^2.1.4",
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0",
     "flux": "^2.1.1",
-    "immutable": "^3.7.5"
+    "immutable": "^3.7.5",
+    "jquery": "^2.1.4",
+    "md5": "^2.0.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   },
   "devDependencies": {
     "babel": "^5.8.21",

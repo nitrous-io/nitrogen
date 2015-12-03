@@ -9,20 +9,6 @@
   },
   "menu": [
     {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "Nitrogen",
-          "submenu": [
-            {
-              "label": "Log in...",
-              "command": "nitrogen:show-login-dialog"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "label": "Help",
       "submenu": [
         {

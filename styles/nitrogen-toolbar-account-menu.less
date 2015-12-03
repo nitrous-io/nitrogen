@@ -1,0 +1,29 @@
+@import "ui-variables";
+@import "./variables";
+
+.nitrogen-toolbar-account-menu-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+
+  .account {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #777;
+    background-size: cover;
+    transition: box-shadow .1s;
+    text-align: center;
+
+    &:hover {
+      box-shadow: inset 0 0 20px rgba(255,255,255,.3);
+    }
+  }
+
+  .login-btn {
+    width: 26px;
+    height: 26px;
+    padding: 3px 4px;
+  }
+}

@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <script>
+      var remote = require('remote');
+      remote.getCurrentWindow().inspectElement(0, 0);
+    </script>
     <textarea id="nsync-log" readonly>Initializing...</textarea>
   </body>
 </html>

@@ -1,22 +1,29 @@
 @import "ui-variables";
 @import "./variables";
 
+atom-workspace-axis.horizontal {
+  padding-top: 33px;
+}
+
 .nitrogen-toolbar-component {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   background: @inset-panel-background-color;
-  border-right: 1px solid @inset-panel-border-color;
-  width: 33px;
-  height: 100%;
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid @inset-panel-border-color;
+  -webkit-user-select: none;
 
   .logo {
-    width: 100%;
-    height: 33px;
+    width: 32px;
+    height: 32px;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: @nitrousBlue;
     background-image: url('atom://nitrogen/resources/n-logo.svg');
-    border-bottom: 1px solid @inset-panel-border-color;
   }
 }

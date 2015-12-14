@@ -1,0 +1,41 @@
+@import "ui-variables";
+
+.nitrogen-dropdown-component {
+  .nitrogen-dropdown-toggle {
+    cursor: pointer;
+  }
+
+  .nitrogen-dropdown-menu {
+    display: none;
+    background: @base-background-color;
+    border: 1px solid @base-border-color;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15), 0 0 1px rgba(0, 0, 0, .2);
+  }
+
+  &.show {
+    .nitrogen-dropdown-menu {
+      display: block;
+    }
+  }
+
+  .nitrogen-dropdown-menu-item-component {
+    color: @text-color;
+    padding: 5px 20px;
+    white-space: nowrap;
+
+    &:not(.disabled) {
+      cursor: pointer;
+
+      &:hover {
+        color: @text-color-selected;
+        background: @background-color-selected;
+      }
+    }
+
+    &.disabled {
+      cursor: default;
+      opacity: .5;
+    }
+  }
+}

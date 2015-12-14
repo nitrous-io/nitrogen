@@ -23,19 +23,30 @@
     color: @text-color;
     padding: 5px 20px;
     white-space: nowrap;
+    cursor: pointer;
 
-    &:not(.disabled) {
-      cursor: pointer;
+    &:hover {
+      color: @text-color-selected;
+      background: @background-color-selected;
+    }
+
+    &.disabled, &.separator {
+      cursor: default;
 
       &:hover {
-        color: @text-color-selected;
-        background: @background-color-selected;
+        color: @text-color;
+        background: none;
       }
     }
 
     &.disabled {
-      cursor: default;
       opacity: .5;
+    }
+
+    &.separator {
+      padding: 0;
+      margin: 5px 0;
+      border-bottom: 1px solid fade(@base-border-color, 50%);
     }
   }
 }

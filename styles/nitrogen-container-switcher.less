@@ -3,14 +3,21 @@
 
 .nitrogen-container-switcher-component {
   color: @text-color;
-  border-right: 1px solid @button-border-color;
   background-color: @button-background-color;
+
+  .nitrogen-loading-component {
+    width: auto;
+    height: @toolbarHeight;
+    padding: 0 20px;
+    border-right: 1px solid @button-border-color;
+  }
 
   .nitrogen-dropdown-component {
     .nitrogen-dropdown-toggle {
       height: @toolbarHeight;
       line-height: @toolbarHeight;
       padding: 0 20px;
+      border-right: 1px solid @button-border-color;
     }
 
     .nitrogen-dropdown-menu {

@@ -3,10 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Nitrogen</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      #nsync-log {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        resize: none;
+        border: none;
+        box-shadow: none;
+        overflow: auto;
+        font-family: sans-serif;
+      }
+
+      #nsync-log:active, #nsync-log:focus {
+        outline: none;
+      }
+    </style>
   </head>
 
   <body>
-    <div id="nsync-ui"></div>
     <textarea id="nsync-log" readonly>Initializing...</textarea>
   </body>
 </html>

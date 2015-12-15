@@ -1,14 +1,14 @@
 @import "ui-variables";
 @import "./variables";
 
-.nitrogen-toolbar-account-menu-component {
+.nitrogen-account-menu-component {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
+  justify-content: center;
+  width: @toolbarHeight;
+  height: @toolbarHeight;
 
-  .account {
+  .gravatar {
     width: 24px;
     height: 24px;
     border-radius: 2px;
@@ -22,5 +22,13 @@
     width: 26px;
     height: 26px;
     padding: 3px 4px;
+  }
+
+  .nitrogen-dropdown-component {
+    .nitrogen-dropdown-menu {
+      position: fixed;
+      right: 0;
+      top: @toolbarHeight;
+    }
   }
 }

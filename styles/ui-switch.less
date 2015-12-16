@@ -8,6 +8,7 @@
   background-color: @button-border-color;
   border-radius: 12px;
   transition: background-color .3s;
+  cursor: pointer;
 
   .background {
     position: absolute;
@@ -17,7 +18,7 @@
     height: 22px;
     background-color: @button-background-color;
     border-radius: 11px;
-    transition: top .3s, left .3s, width .3s, height .3s;
+    transition: top .3s, left .3s, width .3s, height .3s, background-color .1s;
   }
 
   .toggler {
@@ -32,8 +33,8 @@
     transition: left .3s, background-color .3s;
   }
 
-  &.enabled {
-    background-color: @ui-site-color-1; //#77ce65;
+  &.on {
+    background-color: @ui-site-color-1;
 
     .background {
       top: 11px;
@@ -46,6 +47,14 @@
       left: 17px;
 
       background-color: @button-background-color;
+    }
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+
+    &.on {
+      background-color: desaturate(@ui-site-color-1, 100%);
     }
   }
 }

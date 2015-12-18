@@ -14,11 +14,22 @@
 
   .nitrogen-dropdown-component {
     .nitrogen-dropdown-toggle {
+      position: relative;
       height: @toolbarHeight;
       line-height: @toolbarHeight;
-      padding: 0 20px;
+      padding: 0 30px 0 20px;
       border-right: 1px solid @button-border-color;
       white-space: nowrap;
+
+      &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 14px;
+        right: 15px;
+        border: solid 4px transparent;
+        border-top-color: @text-color;
+      }
     }
 
     .nitrogen-dropdown-menu {
@@ -40,6 +51,18 @@
       .nitrogen-dropdown-toggle {
         color: @text-color-selected;
         background: @background-color-selected;
+      }
+    }
+  }
+
+  &.loading {
+    .nitrogen-dropdown-component {
+      .nitrogen-dropdown-toggle {
+        padding: 0 20px;
+
+        &:after {
+          display: none;
+        }
       }
     }
   }

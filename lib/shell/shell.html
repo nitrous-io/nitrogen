@@ -21,7 +21,6 @@
         background: black;
         color: #e5e5e5;
         overflow: hidden;
-        font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
       }
 
       .terminal-container {
@@ -29,8 +28,6 @@
       }
 
       .terminal {
-        line-height: 1.4;
-        font-size: 13px;
         box-sizing: border-box;
         border: 2px solid transparent;
       }
@@ -97,7 +94,16 @@
         background-color: rgba(255, 255, 255, 0.8);
       }
     </style>
+    <style id='term-font'>
+      body {
+        font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+      }
 
+      .terminal {
+        line-height: 1.35;
+        font-size: 13px;
+      }
+    </style>
     <script src='atom://nitrogen/lib/shell/term.js'></script>
     <script src='atom://nitrogen/lib/shell/shell.js'></script>
   </head>

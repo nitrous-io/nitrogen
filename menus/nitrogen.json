@@ -1,11 +1,6 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle nitrogen",
-        "command": "nitrogen:toggle"
-      }
-    ]
+    "atom-text-editor": [{}]
   },
   "menu": [
     {

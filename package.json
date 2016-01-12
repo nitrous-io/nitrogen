@@ -18,7 +18,8 @@
     "lockfile": "^1.0.1",
     "md5": "^2.0.0",
     "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "react-dom": "^0.14.0",
+    "usage": "^0.7.1"
   },
   "devDependencies": {
     "babel": "^5.8.34",

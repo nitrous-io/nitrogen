@@ -1,3 +1,10 @@
+## 0.1.5
+* Various bug fixes for linux
+* Adds support for GitHub Login
+
+## 0.1.4
+* Various bug fixes for Windows
+
 ## 0.1.3
 * Various bug fixes
 

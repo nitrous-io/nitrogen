@@ -1,3 +1,6 @@
+## 0.1.6
+* Various bug fixes
+
 ## 0.1.5
 * Show remaining usage for free users
 * Adds support for GitHub Login
@@ -7,7 +10,6 @@
 ## 0.1.4
 * Various bug fixes for Windows
 
->>>>>>> 751ad17... Updated change log
 ## 0.1.3
 * Various bug fixes
 

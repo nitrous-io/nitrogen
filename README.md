@@ -2,6 +2,9 @@
 
 ## Release
 
+1. Updates `package.json` and `CHANGELOG.md`
+
+2. Build and publish new version
 ```shell
 # Build
 gulp build
@@ -17,7 +20,7 @@ git add .
 git commit -m "updated to <LATEST COMMIT SHA>"
 
 # Release plugin
-apm release patch # it can be `major` or `minor` depends on release size
+apm publish patch # it can be `major` or `minor` depends on release size
 ```
 
 - - -

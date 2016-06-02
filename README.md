@@ -2,7 +2,7 @@
 
 ## Release
 
-1. Updates `package.json` and `CHANGELOG.md`
+1. Updates `CHANGELOG.md`
 
 2. Build and publish new version
 ```shell
